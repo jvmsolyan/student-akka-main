@@ -1,0 +1,25 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(43904078-ce52-44c5-b109-cec5967840be), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 6 Scala sources to C:\Users\sol_c\scala\student-akka-main\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mNon-compiled module 'compiler-bridge_2.13' for Scala 2.13.4. Compiling...[0m
+[0m[[0m[0minfo[0m] [0m[0m  Compilation completed in 17.799s.[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\sol_c\scala\student-akka-main\src\main\scala\Main.scala:1:8: not found: object zio[0m
+[0m[[0m[31merror[0m] [0m[0mimport zio._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\sol_c\scala\student-akka-main\src\main\scala\Main.scala:2:8: not found: object zio[0m
+[0m[[0m[31merror[0m] [0m[0mimport zio.Console.printLine[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\sol_c\scala\student-akka-main\src\main\scala\Main.scala:4:21: not found: type ZIOAppDefault[0m
+[0m[[0m[31merror[0m] [0m[0mobject Main extends ZIOAppDefault {[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\sol_c\scala\student-akka-main\src\main\scala\Main.scala:5:21: not found: type ZIO[0m
+[0m[[0m[31merror[0m] [0m[0m  override def run: ZIO[Environment with ZIOAppArgs with Scope, Any, Any] =[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\sol_c\scala\student-akka-main\src\main\scala\Main.scala:6:5: not found: value printLine[0m
+[0m[[0m[31merror[0m] [0m[0m    printLine("Welcome to your first ZIO app!")[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 27 s, completed Jul 1, 2023 5:10:31 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

@@ -1,0 +1,17 @@
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\sol_c\scala\student-akka-main\src\main\scala\com\soljvm\student\actors\Student.scala:87:77: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: StudentAccountCreditsUpdatedResponse(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0m      val responseHandler = context.spawn(Behaviors.receiveMessage[Response]{[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\sol_c\scala\student-akka-main\src\main\scala\com\soljvm\student\http\StudentRouter.scala:84:56: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: GetStudentAccountResponse(_), StudentAccountCreditsUpdatedResponse(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0m              onSuccess(createStudentAccount(request)) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\sol_c\scala\student-akka-main\src\main\scala\com\soljvm\student\http\StudentRouter.scala:101:46: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: StudentAccountCreatedResponse(_), StudentAccountCreditsUpdatedResponse(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0m            onSuccess(getStudentAccount(id)) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\sol_c\scala\student-akka-main\src\main\scala\com\soljvm\student\http\StudentRouter.scala:118:64: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: GetStudentAccountResponse(_), StudentAccountCreatedResponse(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  onSuccess(updateStudentAccount(id, request)) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m

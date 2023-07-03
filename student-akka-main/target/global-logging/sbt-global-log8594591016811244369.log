@@ -1,0 +1,23 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(fd33d717-40ba-4782-af30-d9ae58b393a5), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Scala sources to C:\Users\sol_c\scala\student-akka-main\target\scala-2.13\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\sol_c\scala\student-akka-main\src\main\scala\com\soljvm\student\actors\Student.scala:87:77: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: StudentAccountCreditsUpdatedResponse(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0m      val responseHandler = context.spawn(Behaviors.receiveMessage[Response]{[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\sol_c\scala\student-akka-main\src\main\scala\com\soljvm\student\http\StudentRouter.scala:84:56: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: GetStudentAccountResponse(_), StudentAccountCreditsUpdatedResponse(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0m              onSuccess(createStudentAccount(request)) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\sol_c\scala\student-akka-main\src\main\scala\com\soljvm\student\http\StudentRouter.scala:101:46: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: StudentAccountCreatedResponse(_), StudentAccountCreditsUpdatedResponse(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0m            onSuccess(getStudentAccount(id)) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\sol_c\scala\student-akka-main\src\main\scala\com\soljvm\student\http\StudentRouter.scala:118:64: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: GetStudentAccountResponse(_), StudentAccountCreatedResponse(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  onSuccess(updateStudentAccount(id, request)) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 37 s, completed Jul 1, 2023 5:15:58 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

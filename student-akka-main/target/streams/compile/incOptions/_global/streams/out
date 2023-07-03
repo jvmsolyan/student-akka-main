@@ -1,0 +1,66 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\sol_c\scala\student-akka-main\target\scala-2.13\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\sol_c\scala\student-akka-main\target\scala-2.13\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Student.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentAccountByPersistence$StudentAccountCreated.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentAccountByPersistence$Command$UpdateStudent$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentApp$RetrieveStudentActor$2$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentAccountByPersistence$StudentModified$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentRouter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FailureResponse.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Student$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentAccountByPersistence$Command$CreateStudentAccount.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentAccountByPersistence$StudentModified.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentAccountByPersistence$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentAccountByPersistence$Response$GetStudentAccountResponse$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Student$StudentAccountCreated$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentApp$RetrieveStudentActor$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentRouter$anon$importedDecoder$macro$47$1$$anon$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentAccountByPersistence$Event.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentRouter$anon$importedEncoder$macro$33$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentAccountByPersistence$Response$StudentAccountCreatedResponse$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentAccountByPersistence$StudentAccountCreated$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentAccountByPersistence$Command.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentRouter$anon$importedEncoder$macro$39$1$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentAccountByPersistence$Command$GetStudentAccount.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentAccountByPersistence$Response$GetStudentAccountResponse.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentAccountByPersistence$Response$StudentAccountCreatedResponse.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentAccountUpdateRequest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentAccountByPersistence$StudentAccount$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentPlayground.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentApp$RootCommand$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentRouter$anon$importedDecoder$macro$9$1$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Student$Event.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Student$State.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentAccountByPersistence$StudentAccount.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentRouter$anon$importedEncoder$macro$39$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentRouter$anon$importedEncoder$macro$77$1$$anon$6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentAccountByPersistence$Command$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentAccountUpdateRequest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentRouter$anon$importedDecoder$macro$47$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentRouter$anon$importedEncoder$macro$33$1$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentAccountByPersistence.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentRouter$anon$importedDecoder$macro$9$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Student$StudentAccountCreated.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Student$State$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FailureResponse$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentAccountByPersistence$Response$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentAccountByPersistence$Response$StudentAccountCreditsUpdatedResponse$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentAccountByPersistence$Command$GetStudentAccount$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentRouter$anon$importedEncoder$macro$77$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentAccountCreationRequest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentAccountByPersistence$Response$StudentAccountCreditsUpdatedResponse.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentAccountCreationRequest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentRouter$anon$importedEncoder$macro$71$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentRouter$anon$importedEncoder$macro$71$1$$anon$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentAccountByPersistence$Command$UpdateStudent.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentAccountByPersistence$Response.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentPlayground$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentAccountByPersistence$Command$CreateStudentAccount$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: C:\Users\sol_c\scala\student-akka-main\target\scala-2.13\classes.bak[0m
