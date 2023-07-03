@@ -7,7 +7,7 @@ import akka.persistence.typed.scaladsl.{Effect, EventSourcedBehavior}
 import scala.util.{Failure, Success, Try}
 
 // a single student account
-object 2StudentAccountByPersistence {
+object StudentAccountByPersistence {
 
   // commands = messages
   sealed trait Command
@@ -45,14 +45,7 @@ object 2StudentAccountByPersistence {
     command match {
       case CreateStudentAccount(name, credits, email, student) =>
         val id = state.id
-        /*
-          - student creates me
-          - student sends me CreateStudentAccount
-          - I persist StudentAccountCreated
-          - I update my state
-          - reply back to bank with the StudentAccountCreatedResponse
-
-         */
+       
         Effect
           .persist(StudentAccountCreated(StudentAccount(id, name, credits, email))) // persisted into Cassandra
           .thenReply(student)(_ => StudentAccountCreatedResponse(id))
