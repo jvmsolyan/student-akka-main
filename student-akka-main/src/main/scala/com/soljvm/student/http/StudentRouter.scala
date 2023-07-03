@@ -74,13 +74,7 @@ class StudentRouter(student: ActorRef[Command])(implicit system: ActorSystem[_])
         post {
           // parse the payload
           entity(as[StudentAccountCreationRequest]) { request =>
-            // validation
-            //validateRequest(request) {
-              /*
-                - convert the request into a Command for the student actor
-                - send the command to the bank
-                - expect a reply
-               */
+           
               onSuccess(createStudentAccount(request)) {
                 // send back an HTTP response
                 case StudentAccountCreatedResponse(id) =>
@@ -88,16 +82,13 @@ class StudentRouter(student: ActorRef[Command])(implicit system: ActorSystem[_])
                     complete(StatusCodes.Created)
                   }
               }
-           // }
+      
           }
         }
       } ~
         path(Segment) { id =>
           get {
-            /*
-              - send command to the bank
-              - expect a reply
-              */
+           
             onSuccess(getStudentAccount(id)) {
               //  - send back the HTTP response
               case GetStudentAccountResponse(Some(account)) =>
@@ -108,13 +99,7 @@ class StudentRouter(student: ActorRef[Command])(implicit system: ActorSystem[_])
           } ~
             put {
               entity(as[StudentAccountUpdateRequest]) { request =>
-                // validation
-                //validateRequest(request) {
-                  /*
-                      - transform the request to a Command
-                      - send the command to the bank
-                      - expect a reply
-                     */
+               
                   onSuccess(updateStudentAccount(id, request)) {
                     // send HTTP response
                     case StudentAccountCreditsUpdatedResponse(Success(account)) =>
@@ -122,7 +107,7 @@ class StudentRouter(student: ActorRef[Command])(implicit system: ActorSystem[_])
                     case StudentAccountCreditsUpdatedResponse(Failure(ex)) =>
                       complete(StatusCodes.BadRequest, FailureResponse(s"${ex.getMessage}"))
                   }
-               // }
+             
               }
             }
         }
